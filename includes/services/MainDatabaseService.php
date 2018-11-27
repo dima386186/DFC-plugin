@@ -73,9 +73,7 @@ class MainDatabaseService {
                     id SMALLINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
                     time DATETIME DEFAULT CURRENT_TIMESTAMP,
                     name VARCHAR (50),
-                    email VARCHAR (50),
-                    message TEXT,
-                    file_1 VARCHAR (50)
+                    email VARCHAR (50)
                 ) {$charset_collate};";
 
         require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
