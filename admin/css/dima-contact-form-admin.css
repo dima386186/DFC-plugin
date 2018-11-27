@@ -1,0 +1,80 @@
+.none {
+    display: none;
+}
+.table-for-get-contacts-dcf {
+    margin-top: 40px;
+    font-size: 22px;
+}
+.table-for-get-contacts-dcf th {
+    text-align: center;
+}
+
+.main-settings-dcf .form-group {
+    margin-top: 60px;
+}
+
+.wrap-block-dcf:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.fields-settings-dcf .block {
+    display: table;
+    border: 1px solid grey;
+    background-color: cyan;
+    padding: 20px;
+    margin: 40px 40px 0 0;
+    width: 30%;
+}
+
+.name-field-dcf {
+    font-size: 22px;
+}
+
+#DCF-add-new-field .for-checkbox, #DCF-edit-field .for-checkbox {
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+#DCF-add-new-field .checkbox label, #DCF-edit-field .checkbox label {
+    margin-bottom: 10px;
+}
+
+/* pagination */
+.pagination-dcf {
+    clear: both;
+    padding: 0;
+}
+.pagination-dcf li {
+    display:inline;
+}
+.pagination-dcf a {
+    border: 1px solid #D5D5D5;
+    color: #666666;
+    font-size: 11px;
+    font-weight: bold;
+    height: 25px;
+    padding: 4px 8px;
+    text-decoration: none;
+    margin:2px;
+}
+.pagination-dcf a:hover, .pagination a:active {
+    background:#efefef;
+}
+.pagination-dcf span.current {
+    background-color: #687282;
+    border: 1px solid #D5D5D5;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    height: 25px;
+    padding: 4px 8px;
+    text-decoration: none;
+    margin:2px;
+}
+.pagination-dcf span.disabled {
+    border: 1px solid #EEEEEE;
+    color: #DDDDDD;
+    margin: 2px;
+    padding: 2px 5px;
+}

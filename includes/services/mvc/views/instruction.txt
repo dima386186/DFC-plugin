@@ -1,0 +1,1 @@
+All views are stored in admin/partials/ or in public/partials/ - depending on where they are needed.
